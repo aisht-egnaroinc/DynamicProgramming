@@ -1,6 +1,7 @@
 
 public class MinCoin {
-
+//not really DP way of solving
+	
 	static int getMinCoinCount(int[] nums,int rp){
 		int c=0,d=0,r=rp,i=0;
 		while(r>0){
